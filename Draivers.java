@@ -1,11 +1,11 @@
 public class Draivers {
     private String  name;
-    private Double dilay;
-    private Double breaking;
+    private double dilay;
+    private double breaking;
     private String  manuf;
 
-    private Double acceleration;
-    private  Double maxSpeed;
+    private double acceleration;
+    private  double maxSpeed;
     public Draivers(){
         this.name="name";
         this.dilay=0.0;
@@ -15,7 +15,7 @@ public class Draivers {
         this.maxSpeed=0.0;
     }
 
-    public Draivers(String name,Double dilay,Double breaking,String manuf,Double acceleration,Double maxSpeed){
+    public Draivers(String name,double dilay,double breaking,String manuf,double acceleration,double maxSpeed){
         this.name=name;
         this.dilay=dilay;
         this.breaking=breaking;
@@ -26,37 +26,37 @@ public class Draivers {
     public String getName(){
         return this.name;
     }
-    public Double getDilay(){
+    public double getDilay(){
         return this.dilay;
     }
-    public Double getBreaking(){
+    public double getBreaking(){
         return this.breaking;
     }
     public String getmanuf(){
         return this.manuf;
     }
-    public Double getAcceleration(){
+    public double getAcceleration(){
         return this.acceleration;
     }
-    public Double getMaxSpeed(){
+    public double getMaxSpeed(){
         return this.maxSpeed;
     }
     public void setName(String name){
         this.name=name;
     }
-    public void setDilay(Double dilay){
+    public void setDilay(double dilay){
         this.dilay=dilay;
     }
-    public void setBreaking(Double breaking){
+    public void setBreaking(double breaking){
          this.breaking=breaking;
     }
     public void setmanuf(String manuf){
          this.manuf=manuf;
     }
-    public void setAcceleration(Double acceleration){
+    public void setAcceleration(double acceleration){
         this.acceleration=acceleration;
     }
-    public void setMaxSpeed(Double maxSpeed){
+    public void setMaxSpeed(double maxSpeed){
         this.maxSpeed=maxSpeed;
     }
 
